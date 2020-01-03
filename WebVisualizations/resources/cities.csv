@@ -1,4 +1,4 @@
-City_ID,City,Country,Lattitude,Max Temp,Cloudiness,Wind Speed,Humidity
+City_ID,City,Country,Latitude,Max Temperature,Cloudiness,Wind Speed,Humidity
 0,Tuktoyaktuk,CA,69.44,-7.6,40,6.93,76
 1,Chuy,UY,-33.69,68.56,0,12.64,76
 2,Port Hedland,AU,-20.31,80.6,7,8.05,19

@@ -60,16 +60,67 @@
     </nav>
 
    
-        <h1>
-            Humidity
-        </h1>
+<!-- define the container to hold the temperature plot with description and the visualisations plots -->
+<!-- this first section creates the example plot and the description -->   
 
-        <img
-        src="./visualisations/humidity_plot.png"
-        alt="Temperature Plot"
-        />
+  <div class="container">
+    <section class="row">
+      <div class="col-lg-7 col-md-12">
+          <div class="plot-content">
+            <h1 class="plot-header">Humidity</h1>
+            <hr>
+            <img src="./visualisations/Humidity_plot.png" alt="Latitude vs. Humidity" id="other-image">
 
+            <p>
+              The humidity level does not appear to be strongly correlated with latitude based on this plot.  
+              There is some evidence that cities at the higher latitude are more humid.  However, I don't believe
+              we can come to a conclusion based on this plot, as the underlying data was just a snapshot
+              of wether conditions based on a particular day and time.  Further research would be needed
+              to make valid conclusion.
+            </p>
+            
+          </div>
+        </div>
+      
+<!-- this section creates the visualization plots on the right --> 
 
+      <div class="col-lg-5 col-md-12">
+        <div class="visplot-content">
+          <h2 class="plot-header">Visualizations</h2>
+          <hr>
+          <div class="container">
+
+            <div class="row">
+
+              <div class="col-6">
+                <a href="./temp.html">
+                <img src="./visualisations/temperature_plot.png"  alt="Latitude vs. Temperature" id="vis-image">
+                </a>
+              </div>
+          
+              <div class="col-6">
+                <a href="./humidity.html">
+                <img src="./visualisations/humidity_plot.png" alt="Latitude vs. Humidity" id="vis-image">
+                </a>
+              </div>
+          
+              <div class="col-6">
+                <a href="./clouds.html">
+                <img src="./visualisations/clouds_plot.png" alt="Latitude vs. Cloudiness" id="vis-image">
+                </a>
+              </div>
+
+              <div class="col-6">
+                <a href="./wind.html">
+                <img src="./visualisations/wind_plot.png" alt="Latitude vs. Wind Speed" id="vis-image">
+                </a>
+              </div>
+            </div>  
+        </div>
+        
+        </div>
+      </div>
+    </div>  
   </body>
     
 

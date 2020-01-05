@@ -60,15 +60,66 @@
     </nav>
 
    
-        <h1>
-            Max Temperature
-        </h1>
+<!-- define the container to hold the temperature plot with description and the visualisations plots -->
+<!-- this first section creates the example plot and the description -->   
 
-        <img
-        src="./visualisations/temperature_plot.png"
-        alt="Temperature Plot"
-        />
+  <div class="container">
+    <section class="row">
+      <div class="col-lg-7 col-md-12">
+          <div class="plot-content">
+            <h1 class="plot-header">Max Temperature</h1>
+            <hr>
+            <img src="./visualisations/temperature_plot.png" alt="Latitude vs. Temperature" id="other-image">
 
+            <p>
+              As expected, the temperature increases on one approaches the equator (0 Degrees Latitude) and gets 
+              colder as you approach the northern (+90) and southern(-90) poles.  The plot seems to suggest that 
+              temperature at the southern pole is not as extreme, however, this is misleading as there are no 
+              measurment shows for lattitude below -60, as there are very few cities in this region.
+            </p>
+            
+          </div>
+        </div>
+      
+<!-- this section creates the visualization plots on the right --> 
+
+      <div class="col-lg-5 col-md-12">
+        <div class="visplot-content">
+          <h2 class="plot-header">Visualizations</h2>
+          <hr>
+          <div class="container">
+
+            <div class="row">
+
+              <div class="col-6">
+                <a href="./temp.html">
+                <img src="./visualisations/temperature_plot.png"  alt="Latitude vs. Temperature" id="vis-image">
+                </a>
+              </div>
+          
+              <div class="col-6">
+                <a href="./humidity.html">
+                <img src="./visualisations/humidity_plot.png" alt="Latitude vs. Humidity" id="vis-image">
+                </a>
+              </div>
+          
+              <div class="col-6">
+                <a href="./clouds.html">
+                <img src="./visualisations/clouds_plot.png" alt="Latitude vs. Cloudiness" id="vis-image">
+                </a>
+              </div>
+
+              <div class="col-6">
+                <a href="./wind.html">
+                <img src="./visualisations/wind_plot.png" alt="Latitude vs. Wind Speed" id="vis-image">
+                </a>
+              </div>
+            </div>  
+        </div>
+        
+        </div>
+      </div>
+  </div>  
 
   </body>
     
